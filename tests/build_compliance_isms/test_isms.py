@@ -414,7 +414,7 @@ class IsmsCliTests(unittest.TestCase):
 
     def test_source_metadata_is_markdown_safe(self) -> None:
         isms = self.scaffold()
-        source = self.git_repo("source|with[markup]")
+        source = self.git_repo("source[with]markup")
         subprocess.run(
             [
                 "git",
@@ -423,7 +423,7 @@ class IsmsCliTests(unittest.TestCase):
                 "remote",
                 "add",
                 "origin",
-                "git@github.com:example/repository.git",
+                "git@github.com:example/repository|with[markup].git",
             ],
             check=True,
         )
@@ -436,8 +436,10 @@ class IsmsCliTests(unittest.TestCase):
             "--confirmed",
         )
         text = (isms / "SOURCES.md").read_text(encoding="utf-8")
-        self.assertIn(r"source\|with\[markup\]", text)
-        self.assertIn("github.com:example/repository.git", text)
+        self.assertIn(r"source\[with\]markup", text)
+        self.assertIn(
+            r"github.com:example/repository\|with\[markup\].git", text
+        )
         self.assertNotIn("git@github.com", text)
         report = json.loads(
             self.run_cli(
