@@ -1,6 +1,6 @@
 ---
 name: build-compliance-isms
-description: Build, adopt, and resume a lean, repository-backed information security management system for founder-led or small SaaS companies pursuing ISO/IEC 27001:2022 with Amendment 1:2024 and SOC 2 Security. Use when Codex needs to scaffold compliance documentation, discover relevant facts across one or more code repositories, inventory and verify external services and plan tiers, guide a user through policies and registers one document at a time, track unknowns and confirmed gaps, validate control coverage, or continue a paused ISMS documentation program.
+description: Build a lean, repository-backed information security management system for founder-led or small SaaS companies pursuing ISO/IEC 27001:2022 with Amendment 1:2024 and SOC 2 Security. Use when Codex needs to scaffold or adopt compliance documentation, discover relevant facts across one or more code repositories, inventory and verify external services and plan tiers, guide a user through policies and registers one document at a time, track unknowns and confirmed gaps, or validate control coverage.
 license: Apache-2.0
 ---
 
