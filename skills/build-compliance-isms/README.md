@@ -1,6 +1,14 @@
 # Build Compliance ISMS
 
-`build-compliance-isms` is an agent skill for building, adopting, and resuming a lean information security management system (ISMS) for a founder-led or small SaaS company pursuing ISO/IEC 27001:2022 with Amendment 1:2024 and SOC 2 Security.
+`build-compliance-isms` is an agent skill for building a lean information security management system (ISMS) for a founder-led or small SaaS company pursuing ISO/IEC 27001:2022 with Amendment 1:2024 and SOC 2 Security.
+
+## Install
+
+Add the skill with [Vercel's skills CLI](https://skills.sh/docs/cli):
+
+```bash
+npx skills add LunarisApp/agent-skills --skill build-compliance-isms
+```
 
 > **Expect substantial human effort.** This skill assists and structures the work; it does not make compliance automatic. The organization must invest time to investigate its actual practices, answer questions, make decisions, review and approve documents, remediate gaps, operate controls, and collect evidence. The amount of work depends on the organization's scope, complexity, and current maturity.
 
