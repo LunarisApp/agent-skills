@@ -716,6 +716,33 @@ class IsmsCliTests(unittest.TestCase):
         )
         self.assertIn("TBD count mismatch for GOV-01", result.stdout)
 
+    def test_validation_and_status_ignore_hidden_workspace_directories(self) -> None:
+        isms = self.scaffold()
+        baseline = json.loads(
+            self.run_cli("status", "--isms-root", str(isms)).stdout
+        )["formal_status"]
+        hidden_files = {
+            ".agents/skills/build-compliance-isms/SKILL.md": "# Skill instructions\n",
+            ".context/notes.md": "# Workspace notes\n",
+        }
+        for relative, content in hidden_files.items():
+            path = isms / relative
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_text(content, encoding="utf-8")
+
+        self.run_cli("validate", "--isms-root", str(isms), "--level", "scaffold")
+        report = json.loads(self.run_cli("status", "--isms-root", str(isms)).stdout)
+        self.assertEqual(report["formal_status"], baseline)
+
+        visible_note = isms / "workspace-notes.md"
+        visible_note.write_text("# Visible workspace notes\n", encoding="utf-8")
+        result = self.run_cli(
+            "validate", "--isms-root", str(isms), "--level", "scaffold", success=False
+        )
+        self.assertIn("workspace-notes.md: missing YAML frontmatter", result.stdout)
+        report = json.loads(self.run_cli("status", "--isms-root", str(isms)).stdout)
+        self.assertEqual(report["formal_status"]["unknown"], baseline["unknown"] + 1)
+
     def test_status_restores_pause_and_resume_fields(self) -> None:
         isms = self.scaffold()
         state = isms / "STATE.md"

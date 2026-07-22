@@ -1712,6 +1712,17 @@ def parse_frontmatter(path: Path) -> tuple[dict[str, str], str] | None:
     return fields, text[match.end() :]
 
 
+def controlled_markdown_paths(root: Path) -> list[Path]:
+    return [
+        path
+        for path in root.rglob("*.md")
+        if path.name != "AGENTS.md"
+        and not any(
+            part.startswith(".") for part in path.relative_to(root).parts[:-1]
+        )
+    ]
+
+
 def markdown_rows(path: Path, prefix: str) -> list[list[str]]:
     rows: list[list[str]] = []
     for line in path.read_text(encoding="utf-8").splitlines():
@@ -1772,7 +1783,7 @@ def command_validate(args: argparse.Namespace) -> None:
             errors.append(f"missing required file: {relative}")
 
     ids: dict[str, str] = {}
-    controlled_paths = [path for path in root.rglob("*.md") if path.name != "AGENTS.md"]
+    controlled_paths = controlled_markdown_paths(root)
     for path in controlled_paths:
         relative = path.relative_to(root).as_posix()
         parsed = parse_frontmatter(path)
@@ -2175,9 +2186,7 @@ def command_validate(args: argparse.Namespace) -> None:
 def command_status(args: argparse.Namespace) -> None:
     root = resolve_directory(args.isms_root, "ISMS root")
     formal = {"draft": 0, "approved": 0, "retired": 0, "unknown": 0}
-    for path in root.rglob("*.md"):
-        if path.name == "AGENTS.md":
-            continue
+    for path in controlled_markdown_paths(root):
         parsed = parse_frontmatter(path)
         state = parsed[0].get("status", "unknown") if parsed else "unknown"
         formal[state if state in formal else "unknown"] += 1
