@@ -1,0 +1,704 @@
+[
+  {
+    "path": "00-governance/document-control.md",
+    "id": "GOV-01",
+    "title": "Document Control",
+    "kind": "governance",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "creation, approval, review, versioning, retention, and retirement of ISMS documents"
+  },
+  {
+    "path": "00-governance/isms-scope.md",
+    "id": "GOV-02",
+    "title": "ISMS Scope",
+    "kind": "governance",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "organizational, product, technology, location, people, dependency, and exclusion boundaries"
+  },
+  {
+    "path": "00-governance/organization-context.md",
+    "id": "GOV-03",
+    "title": "Organization Context",
+    "kind": "governance",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "internal and external issues, interested parties, requirements, and climate relevance"
+  },
+  {
+    "path": "00-governance/roles-and-responsibilities.md",
+    "id": "GOV-04",
+    "title": "Roles and Responsibilities",
+    "kind": "governance",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "authority, accountability, competence, segregation constraints, continuity, and independent audit"
+  },
+  {
+    "path": "00-governance/security-objectives-and-metrics.md",
+    "id": "GOV-05",
+    "title": "Security Objectives and Metrics",
+    "kind": "governance",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "measurable objectives, owners, measurement sources, review, and corrective action"
+  },
+  {
+    "path": "00-governance/compliance-obligations.md",
+    "id": "GOV-06",
+    "title": "Compliance Obligations",
+    "kind": "governance",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "legal, regulatory, contractual, privacy, intellectual-property, and records obligations"
+  },
+  {
+    "path": "00-governance/soc2-system-description.md",
+    "id": "GOV-07",
+    "title": "SOC 2 System Description",
+    "kind": "governance",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "services, commitments, system components, boundaries, data, people, procedures, and subservice organizations"
+  },
+  {
+    "path": "01-risk-management/risk-management-methodology.md",
+    "id": "RISK-01",
+    "title": "Risk Management Methodology",
+    "kind": "risk",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "repeatable identification, scoring, evaluation, treatment, acceptance, and review rules"
+  },
+  {
+    "path": "01-risk-management/risk-register.md",
+    "id": "RISK-02",
+    "title": "Risk Register",
+    "kind": "risk-register",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "current information-security risks, existing controls, scores, owners, and decisions"
+  },
+  {
+    "path": "01-risk-management/risk-treatment-plan.md",
+    "id": "RISK-03",
+    "title": "Risk Treatment Plan",
+    "kind": "treatment-register",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "approved treatments, control owners, resources, deadlines, residual risk, and acceptance"
+  },
+  {
+    "path": "01-risk-management/statement-of-applicability.md",
+    "id": "RISK-04",
+    "title": "Statement of Applicability",
+    "kind": "soa",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "all Annex A applicability decisions, justifications, implementation status, owners, and evidence"
+  },
+  {
+    "path": "02-policies/information-security-policy.md",
+    "id": "POL-01",
+    "title": "Information Security Policy",
+    "kind": "policy",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "management direction, principles, commitments, responsibilities, communication, and exceptions"
+  },
+  {
+    "path": "02-policies/asset-management-and-acceptable-use.md",
+    "id": "POL-02",
+    "title": "Asset Management and Acceptable Use",
+    "kind": "policy",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "asset ownership, inventory, acceptable use, return, endpoint protection, and disposal"
+  },
+  {
+    "path": "02-policies/identity-and-access-control.md",
+    "id": "POL-03",
+    "title": "Identity and Access Control",
+    "kind": "policy",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "identity lifecycle, least privilege, privileged access, authentication, review, and service accounts"
+  },
+  {
+    "path": "02-policies/data-classification-privacy-and-retention.md",
+    "id": "POL-04",
+    "title": "Data Classification, Privacy, and Retention",
+    "kind": "policy",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "classification, handling, privacy roles, transfers, retention, deletion, masking, and leakage prevention"
+  },
+  {
+    "path": "02-policies/cryptography-and-secret-management.md",
+    "id": "POL-05",
+    "title": "Cryptography and Secret Management",
+    "kind": "policy",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "approved cryptography, transport and storage protection, keys, credentials, rotation, and compromise"
+  },
+  {
+    "path": "02-policies/people-security-and-remote-work.md",
+    "id": "POL-06",
+    "title": "People Security and Remote Work",
+    "kind": "policy",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "screening, terms, awareness, confidentiality, remote work, disciplinary action, exit, and reporting"
+  },
+  {
+    "path": "02-policies/physical-and-environmental-security.md",
+    "id": "POL-07",
+    "title": "Physical and Environmental Security",
+    "kind": "policy",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "work locations, equipment, physical access, environmental threats, media, maintenance, and disposal"
+  },
+  {
+    "path": "02-policies/supplier-and-cloud-security.md",
+    "id": "POL-08",
+    "title": "Supplier and Cloud Security",
+    "kind": "policy",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "supplier selection, agreements, cloud responsibility, monitoring, changes, concentration, and exit"
+  },
+  {
+    "path": "02-policies/secure-development-and-change-management.md",
+    "id": "POL-09",
+    "title": "Secure Development and Change Management",
+    "kind": "policy",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "development lifecycle, requirements, architecture, coding, testing, environments, changes, releases, and test data"
+  },
+  {
+    "path": "02-policies/operations-and-network-security.md",
+    "id": "POL-10",
+    "title": "Operations and Network Security",
+    "kind": "policy",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "capacity, configuration, time, networks, service boundaries, segregation, filtering, and operational ownership"
+  },
+  {
+    "path": "02-policies/vulnerability-and-malware-management.md",
+    "id": "POL-11",
+    "title": "Vulnerability and Malware Management",
+    "kind": "policy",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "threat awareness, dependency and vulnerability detection, triage, remediation, malware protection, and software installation"
+  },
+  {
+    "path": "02-policies/logging-and-monitoring.md",
+    "id": "POL-12",
+    "title": "Logging and Monitoring",
+    "kind": "policy",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "security logging, event coverage, access, integrity, monitoring, alerting, privacy, retention, and response"
+  },
+  {
+    "path": "02-policies/security-incident-management.md",
+    "id": "POL-13",
+    "title": "Security Incident Management",
+    "kind": "policy",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "preparation, reporting, assessment, response, communications, evidence, recovery, and learning"
+  },
+  {
+    "path": "02-policies/business-continuity-backup-and-recovery.md",
+    "id": "POL-14",
+    "title": "Business Continuity, Backup, and Recovery",
+    "kind": "policy",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "critical services, disruption scenarios, recovery targets, backups, redundancy, restoration, testing, and communications"
+  },
+  {
+    "path": "03-procedures/joiner-mover-leaver-and-access-review.md",
+    "id": "PRO-01",
+    "title": "Joiner, Mover, Leaver, and Access Review",
+    "kind": "procedure",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "access requests, approval, provisioning, role changes, removal, asset return, and periodic review"
+  },
+  {
+    "path": "03-procedures/change-and-release.md",
+    "id": "PRO-02",
+    "title": "Change and Release",
+    "kind": "procedure",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "request, risk review, approval, testing, deployment, rollback, emergency changes, and records"
+  },
+  {
+    "path": "03-procedures/vulnerability-remediation.md",
+    "id": "PRO-03",
+    "title": "Vulnerability Remediation",
+    "kind": "procedure",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "intake, validation, severity decision, ownership, remediation, exception, verification, and closure"
+  },
+  {
+    "path": "03-procedures/security-incident-playbook.md",
+    "id": "PRO-04",
+    "title": "Security Incident Playbook",
+    "kind": "procedure",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "triage, containment, investigation, preservation, notification, recovery, lessons learned, and records"
+  },
+  {
+    "path": "03-procedures/backup-restore-and-continuity-test.md",
+    "id": "PRO-05",
+    "title": "Backup, Restore, and Continuity Test",
+    "kind": "procedure",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "backup checks, restoration, continuity exercises, success criteria, findings, and follow-up"
+  },
+  {
+    "path": "03-procedures/supplier-onboarding-review-and-exit.md",
+    "id": "PRO-06",
+    "title": "Supplier Onboarding, Review, and Exit",
+    "kind": "procedure",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "due diligence, approval, contract and data review, access, monitoring, changes, offboarding, and deletion"
+  },
+  {
+    "path": "03-procedures/key-and-secret-rotation.md",
+    "id": "PRO-07",
+    "title": "Key and Secret Rotation",
+    "kind": "procedure",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "inventory, planned and emergency rotation, validation, revocation, recovery, and records"
+  },
+  {
+    "path": "03-procedures/data-request-deletion-and-disposal.md",
+    "id": "PRO-08",
+    "title": "Data Request, Deletion, and Disposal",
+    "kind": "procedure",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "request intake, identity and authority verification, search, export, correction, deletion, backup handling, and closure"
+  },
+  {
+    "path": "04-registers/asset-register.md",
+    "id": "REG-01",
+    "title": "Asset Register",
+    "kind": "register",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "information, software, infrastructure, physical, people, service, and assurance assets"
+  },
+  {
+    "path": "04-registers/data-and-processing-register.md",
+    "id": "REG-02",
+    "title": "Data and Processing Register",
+    "kind": "register",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "data categories, subjects, purposes, roles, legal basis, systems, regions, transfers, retention, and deletion"
+  },
+  {
+    "path": "04-registers/supplier-register.md",
+    "id": "REG-03",
+    "title": "Supplier Register",
+    "kind": "register",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "service, purpose, criticality, data, regions, plan, assurance, contract, review, access, and exit"
+  },
+  {
+    "path": "04-registers/privileged-access-register.md",
+    "id": "REG-04",
+    "title": "Privileged Access Register",
+    "kind": "register",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "privileged identity, system, role, owner, approval, authentication, recovery, review, and status"
+  },
+  {
+    "path": "04-registers/incident-register.md",
+    "id": "REG-05",
+    "title": "Incident Register",
+    "kind": "register",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "security events and incidents, classification, impact, response, notification, recovery, and learning"
+  },
+  {
+    "path": "04-registers/vulnerability-register.md",
+    "id": "REG-06",
+    "title": "Vulnerability Register",
+    "kind": "register",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "confirmed vulnerabilities, affected assets, severity decision, owner, treatment, due date, exception, and verification"
+  },
+  {
+    "path": "04-registers/training-and-competence-register.md",
+    "id": "REG-07",
+    "title": "Training and Competence Register",
+    "kind": "register",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "role competence requirements, training, completion, assessment, evidence, and follow-up"
+  },
+  {
+    "path": "04-registers/exception-register.md",
+    "id": "REG-08",
+    "title": "Exception Register",
+    "kind": "register",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "approved deviations, rationale, risk, compensating controls, owner, expiry, review, and closure"
+  },
+  {
+    "path": "05-assurance/control-crosswalk.md",
+    "id": "ASSURE-01",
+    "title": "ISO 27001 and SOC 2 Security Control Crosswalk",
+    "kind": "crosswalk",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "requirements and control identifiers linked to owner, document, implementation state, and expected evidence"
+  },
+  {
+    "path": "05-assurance/evidence-index.md",
+    "id": "ASSURE-02",
+    "title": "Control Evidence Index",
+    "kind": "evidence-register",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "expected evidence, external location, source, cadence, period, owner, retention, and verification"
+  },
+  {
+    "path": "05-assurance/internal-audit-program.md",
+    "id": "ASSURE-03",
+    "title": "Internal Audit Program",
+    "kind": "assurance",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "scope, criteria, frequency, method, competence, impartiality, reporting, and follow-up"
+  },
+  {
+    "path": "05-assurance/management-review-process.md",
+    "id": "ASSURE-04",
+    "title": "Management Review Process",
+    "kind": "assurance",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "required inputs, decisions, actions, resources, changes, improvement, and retained record"
+  },
+  {
+    "path": "05-assurance/corrective-action-process.md",
+    "id": "ASSURE-05",
+    "title": "Corrective Action Process",
+    "kind": "assurance",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "nonconformity containment, cause, correction, action, ownership, effectiveness, and closure"
+  },
+  {
+    "path": "05-assurance/certification-readiness-checklist.md",
+    "id": "ASSURE-06",
+    "title": "Certification Readiness Checklist",
+    "kind": "readiness",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "scope, risk, applicability, policies, controls, evidence expectations, audit program, review, and auditor validation"
+  },
+  {
+    "path": "05-assurance/templates/internal-audit-report.md",
+    "id": "TPL-01",
+    "title": "Internal Audit Report Template",
+    "kind": "record-template",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "scope, criteria, independence, sampling, findings, conclusions, and follow-up"
+  },
+  {
+    "path": "05-assurance/templates/management-review-record.md",
+    "id": "TPL-02",
+    "title": "Management Review Record Template",
+    "kind": "record-template",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "inputs, decisions, actions, resources, changes, opportunities, owners, and deadlines"
+  },
+  {
+    "path": "05-assurance/templates/access-review-record.md",
+    "id": "TPL-03",
+    "title": "Access Review Record Template",
+    "kind": "record-template",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "population, reviewer, access decisions, removals, exceptions, verification, and evidence"
+  },
+  {
+    "path": "05-assurance/templates/supplier-review-record.md",
+    "id": "TPL-04",
+    "title": "Supplier Review Record Template",
+    "kind": "record-template",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "service changes, plan, assurance, incidents, access, data, risk, decisions, and follow-up"
+  },
+  {
+    "path": "05-assurance/templates/backup-restore-test-record.md",
+    "id": "TPL-05",
+    "title": "Backup and Restore Test Record Template",
+    "kind": "record-template",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "system, backup, scenario, restoration, integrity, timing, result, findings, and actions"
+  },
+  {
+    "path": "05-assurance/templates/incident-exercise-record.md",
+    "id": "TPL-06",
+    "title": "Incident Exercise Record Template",
+    "kind": "record-template",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "scenario, participants, timeline, decisions, communications, recovery, observations, and actions"
+  },
+  {
+    "path": "05-assurance/templates/objectives-review-record.md",
+    "id": "TPL-07",
+    "title": "Objectives Review Record Template",
+    "kind": "record-template",
+    "iso": [
+      "ISO/IEC 27001:2022"
+    ],
+    "soc2": [
+      "SOC 2 Security"
+    ],
+    "focus": "objective, measurement, period, result, trend, analysis, decision, and action"
+  }
+]

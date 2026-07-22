@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Compliance ISMS"
+  short_description: "Build a lean ISO 27001 and SOC 2 ISMS"
+  default_prompt: "Use $build-compliance-isms to build or resume a lean ISO 27001 and SOC 2 ISMS."
