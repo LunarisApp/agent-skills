@@ -12,4 +12,4 @@ Before submitting:
 4. Confirm no secrets, personal data, machine-specific paths, generated evidence, or unsupported claims entered the repository.
 5. Document behavior or generated-layout migrations in the repository changelog.
 
-Skill-specific safety rules still apply. For `build-compliance-isms`, do not submit copyrighted standards text or complete proprietary control inventories. Test identifiers must be fictitious unless distribution is authorized.
+Follow any additional safety rules documented by each skill.

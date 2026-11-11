@@ -4,21 +4,7 @@ Public collection of standalone agent skills maintained by Lunaris. Each directo
 
 ## Skills
 
-| Skill | Purpose | Requirements |
-|---|---|---|
-| [`build-compliance-isms`](skills/build-compliance-isms/SKILL.md) | Build or resume a lean ISO 27001 and SOC 2 Security documentation program. | Python 3.10+, Git |
-
-## Installation
-
-Copy or install only the desired directory under `skills/` using the skill mechanism supported by your agent. Keep the directory name unchanged.
-
-Example invocation:
-
-```text
-Use $build-compliance-isms to start or continue my ISMS documentation program.
-```
-
-Review each skill before use. Skills can inspect repositories, execute bundled scripts, or create files when their documented workflow and user authorization allow it.
+No skills are currently included.
 
 ## Development
 
