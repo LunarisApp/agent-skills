@@ -90,10 +90,6 @@ def main() -> int:
         print("error: missing skills directory", file=sys.stderr)
         return 1
     skill_roots = sorted(path for path in SKILLS_ROOT.iterdir() if path.is_dir())
-    if not skill_roots:
-        print("error: no skills found", file=sys.stderr)
-        return 1
-
     errors = [error for root in skill_roots for error in validate_skill(root)]
     if errors:
         for error in errors:
