@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Added `build-lunaris-extension` with repository-grounded SDK, storage, host capability, and marketplace workflows.
+
 - Removed all existing skills and their associated tests.
 - Updated repository documentation and validation to support an empty skill collection.
 

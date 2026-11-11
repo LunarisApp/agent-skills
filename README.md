@@ -4,7 +4,9 @@ Public collection of standalone agent skills maintained by Lunaris. Each directo
 
 ## Skills
 
-No skills are currently included.
+| Skill | Purpose | Requirements |
+|---|---|---|
+| [`build-lunaris-extension`](skills/build-lunaris-extension/SKILL.md) | Build and test Lunaris extensions with the public SDK. | Bun, TypeScript/React project, compatible Lunaris host for integration checks |
 
 ## Development
 

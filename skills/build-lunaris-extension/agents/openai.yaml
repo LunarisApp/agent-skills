@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Lunaris Extension"
+  short_description: "Build and test extensions for Lunaris"
+  default_prompt: "Use $build-lunaris-extension to build a Lunaris extension using the SDK and repository conventions."
